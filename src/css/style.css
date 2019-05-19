@@ -1,0 +1,135 @@
+* {
+  margin: 0;
+  font-family: sans-serif;
+}
+
+.main {
+  margin-left: 15%;
+}
+
+.title {
+  margin: 30px 0;
+  font-weight: normal;
+}
+
+.cards-wrapper {
+  margin-bottom: 10px;
+}
+
+img {
+  width: 39px;
+  margin-right: 4px;
+}
+
+.table {
+  width: 400px;
+  border: .5px solid #ddd;
+  border-collapse: collapse;
+  font-size: 14px;
+}
+
+thead {
+  box-sizing: border-box;
+  display: table-header-group;
+  vertical-align: middle;
+  border-color: inherit;
+}
+
+tr {
+  display: table-row;
+  vertical-align: inherit;
+  border-color: inherit;
+}
+
+th {
+  border-bottom-width: 2px;
+  border: .5px solid #ddd;
+  padding: 8px;
+}
+
+td {
+  border: .5px solid #ddd;
+  padding: 8px;
+}
+
+tr:nth-of-type(odd) {
+    background-color: #f9f9f9;
+}
+
+input {
+  padding: 8.5px;
+  border: 1px solid #b3b2b2;
+  border-radius: 5px;
+}
+
+button {
+  padding: 9.5px;
+  margin-left: 10px;
+  border: .5px solid #398439;
+  border-radius: 5px;
+  color: #fff;
+  background-color: #5CB85C;
+}
+
+button:hover {
+  cursor: pointer;
+  background-color: rgb(76, 150, 76);
+}
+
+button:focus {
+  outline: none;
+}
+
+.form-group {
+  position: relative;
+}
+
+.error {
+  color: #fff;
+  background: rgb(167, 167, 167);
+  -webkit-box-shadow: 5px 5px 9px -4px rgba(0,0,0,0.17);
+  -moz-box-shadow: 5px 5px 9px -4px rgba(0,0,0,0.17);
+  box-shadow: 5px 5px 9px -4px rgba(0,0,0,0.17);
+  position: absolute;
+  padding: 5px;
+  font-size: 11px;
+  left: 5px;
+  top: 36px;
+  transition: .5s;
+}
+
+.valid {
+  color: #fff;
+  background: #49aa49;
+  -webkit-box-shadow: 5px 5px 9px -4px rgba(0,0,0,0.17);
+  -moz-box-shadow: 5px 5px 9px -4px rgba(0,0,0,0.17);
+  box-shadow: 5px 5px 9px -4px rgba(0,0,0,0.17);
+  position: absolute;
+  padding: 5px;
+  font-size: 11px;
+  left: 20px;
+  top: 36px;
+  transition: .5s;
+}
+
+.invalid {
+  color: #fff;
+  background: #df0505;
+  -webkit-box-shadow: 5px 5px 9px -4px rgba(0,0,0,0.17);
+  -moz-box-shadow: 5px 5px 9px -4px rgba(0,0,0,0.17);
+  box-shadow: 5px 5px 9px -4px rgba(0,0,0,0.17);
+  position: absolute;
+  padding: 5px;
+  font-size: 11px;
+  left: 15px;
+  top: 36px;
+  transition: .5s;
+}
+
+.transparent-card {
+  opacity: .3;
+}
+
+.transparent {
+  opacity: 0;
+}
