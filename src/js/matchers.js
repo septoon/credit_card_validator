@@ -9,7 +9,10 @@ const matchers = (input, cardNum, cards) => {
   if (cardNum.DinersClub.includes(parseInt(twoChar, 10))) cards[4].classList.remove('transparent-card');
   if (cardNum.AmericanExpress.includes(parseInt(twoChar, 10))) cards[5].classList.remove('transparent-card');
   if (cardNum.ChinaUnionPay.includes(parseInt(twoChar, 10))) cards[6].classList.remove('transparent-card');
-  if (cardNum.Mir.includes(parseInt(twoChar, 10))) cards[7].classList.remove('transparent-card');
+  if (cardNum.Mir.includes(parseInt(twoChar, 10))) {
+    cards[7].classList.remove('transparent-card');
+    cards[7].classList.add('this');
+  }
 };
 
 export default matchers;
